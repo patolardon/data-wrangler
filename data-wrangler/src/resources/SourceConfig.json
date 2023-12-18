@@ -1,0 +1,28 @@
+{
+  "table": [
+    {
+      "fpa": {
+        "location": {
+          "prod": "stat.fpa_enjeux",
+          "dev": "stat_dev.fpa_enjeux",
+          "test": "fpa_enjeux"
+        }
+      }
+    }
+  ],
+  "csv": [
+    {
+    "gpi": {
+      "location": {
+        "prod": "rapport_gpi_germantote_20231215_035127.csv",
+        "dev": "rapport_gpi_germantote_20231215_035127.csv",
+        "test": "dataResources/csvReader/in/rapport_gpi_germantote_20231215_035127.csv"
+      },
+      "options": {
+        "header": true,
+        "delimiter": ";"
+      }
+    }
+  }
+  ]
+}
