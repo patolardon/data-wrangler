@@ -1,5 +1,5 @@
 from pyspark.sql import DataFrame
-from src.main.pipeline.pipeline import Pipeline
+from pipeline.pipeline import Pipeline
 from transformers.transformers import select_pipeline, groupby_pipeline
 from functools import partial
 

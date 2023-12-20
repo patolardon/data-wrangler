@@ -44,7 +44,6 @@ class Application:
                                 default=True)
         args = arg_parser.parse_args()
         env = args.env
-        print(env)
         config = Config(env, "")
         spark = get_spark()
         try:

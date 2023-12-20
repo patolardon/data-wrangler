@@ -1,10 +1,8 @@
-import os
-
 import pytest
 from pyspark.sql import SparkSession
 import shutil
 
-from pipeline.impl.GpiPipeline import GpiPipeline
+from src.main.pipeline.impl.GpiPipeline import GpiPipeline
 from src.main.pipeline.impl.fpaPipeline import FpaPipeline
 from src.test.helpers.testHelper import TestHelper
 

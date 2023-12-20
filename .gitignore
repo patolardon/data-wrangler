@@ -1,0 +1,5 @@
+src/test/.pytest_cache
+src/test/db_name
+build
+dist
+src/*.egg-info

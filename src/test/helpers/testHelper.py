@@ -1,5 +1,3 @@
-import os
-
 from pyspark.sql import DataFrame
 
 from config.config import Config
@@ -55,7 +53,3 @@ class TestHelper:
         target = self.spark.read.csv(self.config.export_config.destination_path)
         empty_target = ~(target.isEmpty())
         return empty_target
-
-    def clean_after(self) -> None:
-        os.rmdir(self.config.export_config.destination_path)
-
